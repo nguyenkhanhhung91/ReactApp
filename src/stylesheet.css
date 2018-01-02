@@ -1,0 +1,98 @@
+.App{
+    background-color: #f2f2f2;
+}
+.jumbo{
+    background-image: url("./layout/scences/components/images/background3.jpg");
+    background-size: cover,
+}
+.container{
+    padding: 8%;
+    width: 100%;
+}
+.Cardcss{
+    width: 40%;
+}
+.TopMenu{
+    background-color:  #eee;
+    position: fixed;
+    height: 8%;
+    width: 100%;    
+    z-index: 1;
+    margin: auto;
+    padding: 7px 8%;
+}
+
+.btn-custom {
+    display: inline-block;
+	color: #666;
+	background-color: #eee;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-bottom-width: 3px;
+}
+
+.btn-custom:hover {
+		background-color: #e3e3e3;
+		border-color: rgba(0,0,0,0.5);
+	}
+.btn-custom:active {
+		background-color: #CCC;
+		border-color: rgba(0,0,0,0.9);
+	}
+.btn-custom.btn-blue {
+	background-color: #699DB6;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+}
+.btn-custom.btn-blue:hover {
+		background-color: #4F87A2;
+		border-color: rgba(0,0,0,0.5);
+	}
+.btn-custom.btn-blue:active {
+		background-color: #3C677B;
+		border-color: rgba(0,0,0,0.9);
+	}
+input.wide, textarea.wide {
+    width: 70%;
+}
+textarea.custom-height-modal {
+  width: 700px; 
+  min-width:700px;  
+  max-width:700px;  
+
+  height:370px; 
+  min-height:370px;  
+  max-height:370px;
+}
+
+h1 {
+	color: #1e3046;
+	font-family: 'Baloo';
+	font-size: 66px;
+	font-weight: 400;
+	line-height: 72px;
+	letter-spacing: -0.01em;
+	margin-bottom: 72px;
+	position: relative;
+}
+
+p , div {
+	color: #445c7b;
+	font-family: 'Raleway';
+    font-size: 17px;
+}
+
+a {
+	color: #a640e2;	
+}
+
+a:hover {
+	color: #1e3046;
+}
